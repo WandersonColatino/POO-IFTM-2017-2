@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="lista.exercicios.isp.solucao.Desliga" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Desliga.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="132" x="213" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="lista.exercicios.isp.solucao.Liga" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Liga.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="122" x="559" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="lista.exercicios.isp.solucao.Drone" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Drone.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="134" x="385" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="lista.exercicios.isp.solucao.Carro" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Carro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="132" x="41" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="lista.exercicios.isp.solucao.Teste" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Teste.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="122" x="90" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="lista.exercicios.isp.solucao.Veiculo" project="ListaExerciciosAula5" 
+    file="/ListaExerciciosAula5/src/lista/exercicios/isp/solucao/Veiculo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="153" x="300" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
